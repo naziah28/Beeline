@@ -20,8 +20,8 @@ input_settings:
     #              edge list format. Needed for evaluation.
     datasets:
         - name: "H2228_100"
-          exprData: "ExpressionData.csv"
-          cellData: "PseudoTime.csv"
+          exprData: "H2228_100_normalised.csv"
+          cellData: "H2228_100_pseudo.csv"
           #trueEdges: "refNetwork.csv"
 
     # Denotes a list of algorithms to run. Each has the following parameters:
